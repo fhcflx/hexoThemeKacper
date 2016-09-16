@@ -2,7 +2,7 @@
 <div class="article_box">
     <%
       var art = theme.article_index,art_arr
-      for (var i = 0; i < art.length; i++) { 
+      for (var i = 0; i < art.length; i++) {
       art_arr = art[i]
     %>
     <article class="article_index">
@@ -13,6 +13,7 @@
             <a target="_blank" href="https://github.com/<%=art_arr.content%>/stargazers"><img src="https://img.shields.io/github/stars/<%=art_arr.content%>.svg" /></a>
             <a target="_blank" href="https://github.com/<%=art_arr.content%>/issues"><img src="https://img.shields.io/github/issues/<%=art_arr.content%>.svg" /></a>
             <a target="_blank" href="https://github.com/<%=art_arr.content%>/releases"><img src="https://img.shields.io/github/release/<%=art_arr.content%>.svg" /></a>
+            <a target="_blank" href="https://github.com/<%=art_arr.content%>/releases"><img src="https://img.shields.io/github/downloads/<%=art_arr.content%>/total.svg" /></a>
         <%}else{%>
         <%=art_arr.content%>
         <%}%>

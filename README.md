@@ -38,7 +38,7 @@ Modify `theme` setting in `_config.yml` to `hexoThemeKacper`.
 # Header
 menu: #导航栏连接
   Home: /  
-  API: /API 
+  API: /API
   Tags: /tags
   # Category: /category
   Archives: /archives #/archives #归档页面URL 自定义页面标题: /自定义页面URL
@@ -73,11 +73,10 @@ article_index:
 
 # Content
 excerpt_link: Read More  #阅读更多的文字显示
-fancybox: true  #开启fancybox效果 
+fancybox: true  #开启fancybox效果
 
 
 # Miscellaneous #社交网络和统计连接地址
-baidu_analytics: //hm.baidu.com/hm.js?fe2c7555911b8560db5e56121c5d5960 
 favicon: /css/favicon.ico
 logo: /css/logo.png
 ```
@@ -132,7 +131,7 @@ type: "about"
 
 前端开发工程师。敏捷实践者。目前就职于hotpu，生活在上海。
 
-<!--more--> 
+<!--more-->
 ```
 
 

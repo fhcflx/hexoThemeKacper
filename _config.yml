@@ -46,6 +46,6 @@ excerpt_link: Leia mais  #阅读更多的文字显示
 
 
 # Miscellaneous #社交网络和统计连接地址
-baidu_analytics: //hm.baidu.com/hm.js? #百度统计
+# baidu_analytics: //hm.baidu.com/hm.js? #百度统计
 favicon: /css/favicon.ico
 logo: /css/logo.png

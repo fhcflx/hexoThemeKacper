@@ -1,6 +1,6 @@
 # hexoThemeKacper-pt-br
 
-Traduzi o tema hexoThemeKacper, originalmente em inglês e mandarim. Abaixo começa o texto original traduzido.
+> Traduzi o tema hexoThemeKacper, originalmente em inglês e mandarim. Abaixo começa o texto original traduzido, com algumas substituições por conteúdo meu.
 
 Este é um tema hexo.io. Naturalmente,como eu sou  preguiçoso, baseei-me no tema `landscape`, então ...
 
@@ -13,22 +13,22 @@ Este é um tema hexo.io. Naturalmente,como eu sou  preguiçoso, baseei-me no tem
 ### Instalar
 
 ``` bash
-$ git clone https://github.com/jaywcjlove/hexoThemeKacper.git themes/hexoThemeKacper
+$ git clone https://github.com/fhcflx/hexoThemeKacper.git themes/hexoThemeKacper-pt-br
 ```
 
-**hexoThemeKacper requires Hexo 3.0 and above.**
+**hexoThemeKacper-pt-br requer Hexo 3.0 ou acima.**
 
 
 ### Atualizar
 
 ``` bash
-cd themes/hexoThemeKacper
+cd themes/hexoThemeKacper-pt-br
 git pull
 ```
 
 ### Permitir
 
-Modifique a configuração `theme` em `_config.yml` para `hexoThemeKacper`.
+Modifique a configuração `theme` em `_config.yml` para `hexoThemeKacper-pt-br`.
 
 ## Uso
 
@@ -51,7 +51,7 @@ rss: /atom.xml #rss padrão
 
 #feed:
 #  type: atom       #feed (atom/rss2)
-#  path: /atom.xml   #rss 
+#  path: /atom.xml   #rss
 #  limit: 20        #limite máximo de postagens reproduzidas (0 mostra todas)
 
 
@@ -73,25 +73,24 @@ article_index:
 
 
 
-# Content
-excerpt_link: Read More  #阅读更多的文字显示
-fancybox: true  #开启fancybox效果
+# Conteúdo
+excerpt_link: Leia mais
+fancybox: true  #Ativar abertura de fancybox
 
 
-# Miscellaneous #社交网络和统计连接地址
+# Miscelânea #Redes sociais, estatísticas de conexão, etc
 favicon: /css/favicon.ico
 logo: /css/logo.png
 ```
 
 
-### TAGS && Category && API && About
+### TAGS && Categoria && Sobre
 
-设置这三个菜单需要你在 `source` 建立三个页面
+Os menus fixos exigem páginas individuais em `source`
 
 ```
 source/tags/index.md
 source/category/index.md
-source/API/index.md
 source/about/index.md
 ```
 
@@ -105,55 +104,42 @@ title: "tags"
 ```
 
 
-#### Category
+#### Categoria
 
 ```
 layout: category
-title: "categories"
+title: "categorias"
 ---
 ```
 
-#### API
+
+#### Sobre
 
 ```
-title: "JSLite.io"
-date: 2015-04-05 05:37:40
-type: "API"
----
-```
-
-#### About
-
-```
-title: "关于我"
-date: 2015-04-02 01:36:59
-description: "关于我"
+title: "Sobre mim"
+date: 2017-04-12 01:36:59
+description: "sobre mim"
 type: "about"
 ---
 
-前端开发工程师。敏捷实践者。目前就职于hotpu，生活在上海。
+Médico, cientista, fazendo experimentos com radiação nerd, ele sofreu mutações que o transformaram em...
 
 <!--more-->
 ```
 
 
-### 注意翻页
+### Paginação
 
-因为本主题没有做翻页的功能。所以在博客跟目录 `_config.yml` 文件中要设置 `per_page: 0` ，设置为 `0` 显示所有文章
+Como neste tema não fiz função flip, então no `_config.yml` a configuração é ` per_page: 0`,` 0` está configurado para exibir todos os artigos.
 
 ```
 per_page: 0
 pagination_dir: page
 ```
 
-### 多说评论
+### Comentários
 
-注册你自己的多说账号 [duoshuo](http://dev.duoshuo.com/docs/501e6ce1cff715f71800000d) 替换你在根目录`_config.yml` 中的 `duoshuo short_name` 的值，没有在里面设置
+> Os comentários estavam configurados, no original, para o [duoshuo](https://dev/duoshuo.com), um sistema de comentários para redes sociais em mandarim.
 
-```
-duoshuo_shortname: your short_name
-```
-
-
-## 协议
+## Licença
 [MIT](/MIT-LICENSE)

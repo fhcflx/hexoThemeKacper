@@ -1,14 +1,16 @@
-# hexoThemeKacper
+# hexoThemeKacper-pt-br
 
-这个是一个hexo.io 的主题，本人生性懒惰，所以主题基于 `landscape` 主题更改的。so...
+Traduzi o tema hexoThemeKacper, originalmente em inglês e mandarim. Abaixo começa o texto original traduzido.
 
-## Preview
+Este é um tema hexo.io, como eu sou naturalmente preguiçoso, baseei-me no tema `landscape`, então ...
 
-[JSLite.io](http://JSLite.io)
+## Pré-visualização
 
-## Installation
+[Banco de dados de pacientes com tumores cerebrais](https://neuro-oncologia.gitlab.io/banco/)
 
-### Install
+## Instalação
+
+### Instalar
 
 ``` bash
 $ git clone https://github.com/jaywcjlove/hexoThemeKacper.git themes/hexoThemeKacper
@@ -17,40 +19,40 @@ $ git clone https://github.com/jaywcjlove/hexoThemeKacper.git themes/hexoThemeKa
 **hexoThemeKacper requires Hexo 3.0 and above.**
 
 
-### Update
+### Atualizar
 
 ``` bash
 cd themes/hexoThemeKacper
 git pull
 ```
 
-### Enable
+### Permitir
 
-Modify `theme` setting in `_config.yml` to `hexoThemeKacper`.
+Modifique a configuração `theme` em `_config.yml` para `hexoThemeKacper`.
 
-## Usage
+## Uso
 
-### Theme configuration example
+### Exemplo de configuração do tema
 
-`/themes/_config.yml` 说明
+`/themes/_config.yml` Explicando
 
 ```python
 # Header
-menu: #导航栏连接
+menu: #barra de navegação
   Home: /  
-  API: /API
+  PDF: /PDF
   Tags: /tags
   # Category: /category
-  Archives: /archives #/archives #归档页面URL 自定义页面标题: /自定义页面URL
-  About: /about
-  Github: https://github.com/JSLite/JSLite
+  Arquivos: /archives #/arquivos #Personalização do título da página e da URL
+  Sobre: /about
+  Github: https://github.com/<seu repo>
 
-rss: /atom.xml #rss地址  默认即可
+rss: /atom.xml #rss padrão
 
 #feed:
-#  type: atom       #feed 类型 (atom/rss2)
-#  path: /atom.xml   #rss 路径
-#  limit: 20        #在 rss 中最多生成的文章数(0显示所有)
+#  type: atom       #feed (atom/rss2)
+#  path: /atom.xml   #rss 
+#  limit: 20        #limite máximo de postagens reproduzidas (0 mostra todas)
 
 
 #icon http://fontawesome.io/

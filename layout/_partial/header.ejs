@@ -1,8 +1,8 @@
 
-<% 
+<%
 var ispage = false
     hdpage =""
-    ishome = url_for(page.path) === '/index.html'? true :false
+    ishome = url_for(page.path) === '/banco/index.html'? true :false
 
 console.log(url_for(page.path));
 
@@ -40,7 +40,7 @@ if(!ishome){
                   <%}else{%>
                   <%}%>
 
-                
+
                   <%= i %>
                 </a>
             <% } %>

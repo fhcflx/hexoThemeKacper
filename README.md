@@ -13,7 +13,7 @@ Este é um tema hexo.io. Naturalmente,como eu sou  preguiçoso, baseei-me no tem
 ### Instalar
 
 ``` bash
-$ git clone https://github.com/fhcflx/hexoThemeKacper.git themes/hexoThemeKacper-pt-br
+$ git clone https://github.com/fhcflx/hexoThemeKacper-pt-br.git themes/hexoThemeKacper-pt-br
 ```
 
 **hexoThemeKacper-pt-br requer Hexo 3.0 ou acima.**

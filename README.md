@@ -2,7 +2,7 @@
 
 Traduzi o tema hexoThemeKacper, originalmente em inglês e mandarim. Abaixo começa o texto original traduzido.
 
-Este é um tema hexo.io, como eu sou naturalmente preguiçoso, baseei-me no tema `landscape`, então ...
+Este é um tema hexo.io. Naturalmente,como eu sou  preguiçoso, baseei-me no tema `landscape`, então ...
 
 ## Pré-visualização
 
@@ -45,7 +45,7 @@ menu: #barra de navegação
   # Category: /category
   Arquivos: /archives #/arquivos #Personalização do título da página e da URL
   Sobre: /about
-  Github: https://github.com/<seu repo>
+  Github: https://github.com/fhcflx/cpc-neuro
 
 rss: /atom.xml #rss padrão
 
@@ -56,19 +56,19 @@ rss: /atom.xml #rss padrão
 
 
 #icon http://fontawesome.io/
-#首页显示
+#Mostrando conteúdo na página principal
 article_index:
-  -  title: 低廉学习成本低
-     content: 与jQuery有着类似的api，模仿jQuery的语法规范，并不是100%的覆盖。如果你会用jQuery，那么你也会用JSLite。
+  -  title: Protocolos de Tratamento
+     content: Manual de protocolos de quimioterapia usados no tratamento de pacientes com tumores cerebrais.
      icon: icon-book
-  -  title: 快执行并下载
-     content: JSLite通用库只有5-10k，没有大量的兼容代码，在先进浏览器里面跑起来没有负担。为了减小代码量，提高性能，组件再插件化，兼容iOS3+ / android2.1+。
+  -  title: Equipe do GPMCP
+     content: Juvenia B Fontenele，Francisco H C Felix
      icon: icon-bolt
-  -  title: 为未来web做打算
-     content: 让中国再次和世界同步，拥抱现代浏览器。未来总会接触到移动端开发，还好移动端开发环境还不算恶劣。
+  -  title: Banco de dados
+     content: Relatórios dinâmicos do banco de dados de pacientes com tumores cerebrais
      icon: icon-lab
-  -  title: Github # Github这里比较特殊
-     content: JSLite/JSLite # github 仓库地址，例如https://github.com/jaywcjlove/hexoThemeKacper 这里就填写  jaywcjlove/hexoThemeKacper
+  -  title: Github # Suas estatísticas Github
+     content: fhcflx/cpc-neuro # repositório github
      icon: icon-github-alt
 
 

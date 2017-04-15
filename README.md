@@ -1,6 +1,6 @@
 # hexoThemeKacper-pt-br
 
-> Traduzi o tema hexoThemeKacper, originalmente em inglês e mandarim. Abaixo começa o texto original traduzido, com algumas substituições por conteúdo meu.
+> Traduzi o tema [hexoThemeKacper](https://github.com/jaywcjlove/hexoThemeKacper), originalmente em inglês e mandarim. Abaixo começa o texto original traduzido, com algumas substituições por conteúdo meu.
 
 Este é um tema hexo.io. Naturalmente,como eu sou  preguiçoso, baseei-me no tema `landscape`, então ...
 

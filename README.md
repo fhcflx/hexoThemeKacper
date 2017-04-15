@@ -26,7 +26,7 @@ cd themes/hexoThemeKacper-pt-br
 git pull
 ```
 
-### Permitir
+### Permissões
 
 Modifique a configuração `theme` em `_config.yml` para `hexoThemeKacper-pt-br`.
 
@@ -34,7 +34,7 @@ Modifique a configuração `theme` em `_config.yml` para `hexoThemeKacper-pt-br`
 
 ### Exemplo de configuração do tema
 
-`/themes/_config.yml` Explicando
+Edite o `_config.yml`
 
 ```python
 # Header

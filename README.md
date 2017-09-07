@@ -142,4 +142,4 @@ pagination_dir: page
 > Os comentários estavam configurados, no original, para o [duoshuo](https://dev/duoshuo.com), um sistema de comentários para redes sociais em mandarim.
 
 ## Licença
-[MIT](/MIT-LICENSE), originalmente para @jaywcjlove, tradução para o português minha.
+[MIT](/MIT-LICENSE), originalmente para [@jaywcjlove](https://github.com/jaywcjlove), tradução para o português minha.

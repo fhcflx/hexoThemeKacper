@@ -2,7 +2,7 @@
 
 > Traduzi o tema [hexoThemeKacper](https://github.com/jaywcjlove/hexoThemeKacper), originalmente em inglês e mandarim. Abaixo começa o texto original traduzido, com algumas substituições por conteúdo meu.
 
-Este é um tema hexo.io. Naturalmente,como eu sou  preguiçoso, baseei-me no tema `landscape`, então ...
+Este é um tema hexo.io. Naturalmente, como eu sou  preguiçoso, baseei-me no tema `landscape`, então ...
 
 ## Pré-visualização
 
@@ -26,7 +26,7 @@ cd themes/hexoThemeKacper-pt-br
 git pull
 ```
 
-### Permissões
+### Configuração básica
 
 Modifique a configuração `theme` em `_config.yml` para `hexoThemeKacper-pt-br`.
 
@@ -142,4 +142,4 @@ pagination_dir: page
 > Os comentários estavam configurados, no original, para o [duoshuo](https://dev/duoshuo.com), um sistema de comentários para redes sociais em mandarim.
 
 ## Licença
-[MIT](/MIT-LICENSE)
+[MIT](/MIT-LICENSE), originalmente para @jaywcjlove, tradução para o português minha.

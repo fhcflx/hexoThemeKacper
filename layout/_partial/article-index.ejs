@@ -10,7 +10,7 @@
         <p>
         <%if(art_arr.title == "Gitlab"){%>
             <a target="_blank" href="https://gitlab.com/<%=art_arr.content%>/commits/master"><img alt="pipeline status" src="https://gitlab.com/<%=art_arr.content%>/badges/master/pipeline.svg"/></a>
-	    <a target="_blank" href=<img src="https://img.shields.io/gitlab/pipeline/<%=alt_arr.content%>.svg" alt="pipeline status"/></a>
+	    <a target="_blank" href=<img src="https://img.shields.io/gitlab/pipeline/<%=art_arr.content%>.svg" alt="pipeline status"/></a>
         <%}else{%>
         <%=art_arr.content%>
         <%}%>

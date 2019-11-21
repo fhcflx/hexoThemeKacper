@@ -9,8 +9,9 @@
         <h4><i class="<%=art_arr.icon%>"></i><%=art_arr.title%></h4>
         <p>
         <%if(art_arr.title == "Gitlab"){%>
-            <a target="_blank" href="https://gitlab.com/<%=art_arr.content%>/commits/master"><img alt="pipeline status" src="https://gitlab.com/<%=art_arr.content%>/badges/master/pipeline.svg"/></a>
-	    <a target="_blank" href="https://gitlab.com/<%art_arr.content%>/commits/master"><img src="https://img.shields.io/gitlab/pipeline/<%=art_arr.content%>.svg" alt="pipeline status"/></a>
+            <!-- <a target="_blank" href="https://gitlab.com/<%=art_arr.content%>/commits/master"><img alt="pipeline status" src="https://gitlab.com/<%=art_arr.content%>/badges/master/pipeline.svg"/></a> -->
+	    <a target="_blank" href="https://gitlab.com/<%=art_arr.content%>/commits/master"><img src="https://img.shields.io/gitlab/pipeline/<%=art_arr.content%>.svg?color=darkgreen" alt="pipeline status"/></a>
+	    <a target="blank" href="https://creativecommons.org/licenses/by/4.0/"><img alt="license" src="https://img.shields.io/badge/license-CC--BY%204.0-green?color=darkgreen"/></a>
 	    <a href="https://twitter.com/intent/tweet?text=Wow:&url=https://gitlab.com/<%=art_arr.content%>"><img alt="Twitter" src="https://img.shields.io/twitter/url?logoColor=darkgreen&style=social&url=https://twitter.com/neuronc_lab"></a>
         <%}else{%>
         <%=art_arr.content%>

@@ -8,7 +8,7 @@
 </div>
 
 <% site.categories.sort('name').map(function(category){  %>
-    <% if(category.name == 'report') { %>
+    <% if(category.name == 'reports') { %>
         <div class="archives-wrap">
             <div class="archive-year-wrap" id="<%= category.name %>">
                 <h1 class="archive-category"><%= category.name %></h1>

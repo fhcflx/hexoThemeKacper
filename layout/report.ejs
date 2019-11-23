@@ -1,17 +1,17 @@
-<%
+<%# <%
 var len = site.categories.sort('name').length;
-%>
+%> %>
 
 <%- partial('_partial/archive-title', {page: page}) %>
 
-<div class="archives-wrap" style="margin: 0px;">
+<!-- <div class="archives-wrap" style="margin: 0px;">
  <div class="archives-category-wrap">
     <blockquote>
     <% if(site.categories.length) { %>
       <%- list_categories(site.categories) %>
     <% } %>
     </blockquote>
-</div>
+</div> -->
 
 <% site.categories.sort('name').map(function(category){  %>
     <% if(category.name == 'reports') { %>

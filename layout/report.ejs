@@ -3,10 +3,6 @@
 
 <% site.categories.sort('name').map(function(category){  %>
     <% if(category.name == 'reports') { %>
-        <div class="archives-wrap">
-            <div class="archive-year-wrap" id="<%= category.name %>">
-                <h1 class="archive-category"><%= category.name %></h1>
-            </div>
             <div class="archives">
                 <% category.posts.sort('-date').map(function(post, i){  %>
                     <%- partial('_partial/archive-post', {post: post, index: true}) %>

@@ -13,8 +13,9 @@
 	    <a target="_blank" href="https://gitlab.com/<%=art_arr.content%>/commits/master"><img src="https://img.shields.io/gitlab/pipeline/<%=art_arr.content%>.svg?color=darkgreen" alt="pipeline status"/></a>
 	    <a target="blank" href="https://creativecommons.org/licenses/by/4.0/"><img alt="license" src="https://img.shields.io/badge/license-CC--BY%204.0-green?color=darkgreen"/></a>
 	    <a href="https://twitter.com/intent/tweet?text=Wow:&url=https://gitlab.com/<%=art_arr.content%>"><img alt="Twitter" src="https://img.shields.io/twitter/url?logoColor=darkgreen&style=social&url=https://twitter.com/neuronc_lab"></a>
-        <%}else{%>
-        <%=art_arr.content%>
+            <a href="<%=art_arr.url%>"><img src="<%=art_arr.img%>"></a>
+            <%}else{%>
+            <a href="<%=art_arr.url%>"><%=art_arr.content%></a>
         <%}%>
         </p>
     </article>
